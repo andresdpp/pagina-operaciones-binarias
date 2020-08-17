@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Operaciones binarias</title>
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href=#inicio>Inicio</a>
+            <a href=#suma>Suma binaria</a>
+            <a href=#signos>Binarios con signo</a>
+            <a href=#multiplicacion>Multiplicacion bianaria</a>
+            <a href=#division>Division binaria</a>
+            <a href=#resta>Resta binaria</a>
+        </nav>
+        <section class="textos-header">
+            <h1><a name=inicio>Esta es una pagina web pensada para dar informacion de operaciones binarias</a></h1>
+            <h2>aprender te ayuda a mejorar</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <main>
+        <section class="contenedor suma">
+            <h2  class="titulo"><a name=suma> Suma binaria</a></h2>
+            <div class="contenedor-Suma">
+                <img src="img/img1.svg" alt="" class="imagen-matematicas">
+                <div class="contenido-textos">
+                    <h3><span>1</span>)Hay 4 reglas principales</h3>
+                    <p>Las 4 reglas principales son las siguietes:</p>
+                    <p>0+0=0 0 </p>
+                    <p>  0+1=0 1</p>
+                    <p>  1+0=0 1</p>
+                    <p>  1+1=1 0</p>
+                    <p> Tomando esto como binarios, la primera fila representa "acarreos" y la segunda fila
+                      representa las sumas.</p>
+                    
+                    <h3><span>2</span>)Ejemplo de suma binaria</h3>
+                    <img src="img/sum1.jfif" alt="" class="imagen-suma1">
+                    <p>Como podemos ver en el ejemplo la suma va abajo y los acarreos arriba</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="Signos">
+            <div class="contenedor">
+                <h2  class="titulo"><a name=signos>Signos Binarios</a></h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="img/signos.png" alt="">
+                        <div class="hover-galeria">
+                            <p>El bit mas significativo representa el signo, 0 es positivo y 1 es negativo
+                            el resto es la magnitud del numero.</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/a1.png" alt="">
+                        <div class="hover-galeria">
+                            <p>El complemento a1 se halla cambiando los unos por ceros y viceversa</p>
+                            <p>siempre apartando el bit mas significativo para el signo.</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/a2.png" alt="">
+                        <div class="hover-galeria">
+                            <p>El complemento a2 se halla de 2 maneras diferentes: </p>
+                            <p>La primera obtener el A1 del valor y a este sumarle 1.</p>
+                            <p>La segunda es bajar los bits uno a uno desde el bit menos significativo hasta encontrarse </p>
+                            <p>con un uno, despues de esto a los siguientes bits cambiar los unos por ceros y viceversa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Multiplicacion contenedor">
+            <h2 class="titulo"><a name=multiplicacion>Multiplicacion binaria</a></h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/mult1.png" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Primero:</h4>
+                        <p>Lo primero es multiplicar igual que de la forma decimal </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/mult2.png" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Segundo:</h4>
+                        <p>Lo segundo es sumar de manera que ya aprendimos en suma de binarios</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Division">
+            <div class="contenedor">
+                <h2 class="titulo"><a name=division> Division binaria</a></h2>
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="img/div1.png" alt="">
+                        <h3>Explicacion</h3>
+                        <p>Primero se resta el division de la misma cantidad de cifras del dividendo</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/div2.jfif" alt="">
+                        <h3>Ejemplo 1:</h3>
+                        <p>Despues por cada resta se adiciona un 1 al cociente y se baja la siguiente cifra del dividendo</p>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="img/div3.png" alt="">
+                        <h3>Ejemplo 2:</h3>
+                        <p>Si no es posible la resta se coloca un 0 en el cociente y se baja la siguiente cifra en el dividendo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contenedor Resta">
+            <h2 class="titulo"><a name=resta> Resta binaria</a></h2>
+            <div class="contenedor">
+                <img src="img/rest1.svg" alt="" class="imagen-restas">
+                <div class="contenido-textos">
+                    <h3><span>1</span>)Hay 4 reglas principales</h3>
+                    <p>Las 4 reglas principales son las siguietes:</p>
+                    <p>0-0=0 0 </p>
+                    <p>  0-1=1 1</p>
+                    <p>  1-0=1 0</p>
+                    <p>  1-1=0 0</p>
+                    <p> Tomando esto como binarios, la primera fila representa las restas y la segunda fila
+                      representa "acarreos negativos".</p>
+                    
+                    <h3><span>2</span>)Ejemplo de Resta binaria</h3>
+                    <img src="img/rest2.png" alt="" class="imagen-rest2">
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Universidad Autonoma De Bucaramanga</h4>
+                <p>Santander Colombia</p>
+            </div>
+            <div class="content-foo">
+                <h4>Materia:</h4>
+                <p>Arquitectura de computadores</p>
+            </div>
+            <div class="content-foo">
+                <h4>Programa de:</h4>
+                <p>Ingenieria de sistemas</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Daniel Peña | U00114277 </h2>
+    </footer>
+</body>
+
+</html>
